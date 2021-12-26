@@ -43,13 +43,10 @@ Refer [Vacation Search Code](Vacation_Search/Vacation_Search.ipynb) for the code
 The starter code provided was updated to -
 1. get data from Deliverable 2 output - [Vacation Search based on temperature criteria Data Output](Vacation_Search/WeatherPy_vacation.csv),
 2. choose four cities that customer might want to visit,
-
-![Google Map with the four cities selected as Travel Destinationss](Map_showing_Four_cities_selected_for_Travel_Itinerary) 
-
+![Google Map with the four cities selected as Travel Destinationss](Vacation_Itinerary/Map_showing_Four_cities_selected_for_Travel_Itinerary.PNG) 
 3. generate map with directions layer for the four cities based on "DRIVING" travel mode as the cities are spread across Australia using Google Maps Directions API,
 ![Google Map with directions to the four Travel Destinations](Vacation_Itinerary/WeatherPy_travel_map.PNG)   
-
 4. add markers layer with pop-up marker for each city from the four travel destinations.
-![Google Map with pop-up markers for the four Travel Destinations](WeatherPy_travel_map_markers.PNG) 
+![Google Map with pop-up markers for the four Travel Destinations](Vacation_Itinerary/WeatherPy_travel_map_markers.PNG) 
 
 Refer [Vacation Itinerary Code](Vacation_Itinerary/Vacation_Itinerary.ipynb) for the code.
