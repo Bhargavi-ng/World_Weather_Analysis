@@ -20,10 +20,17 @@ The collection code was updated to bring in Weather Description (for example, cl
 
 
 ### Deliverable 2: Create a Customer Travel Destinations Map
-Get user input for Weather preferences to filter and identify and list the potential travel destinations based on the user preferences:
+The starter code provided was updated to -
+1. import data from the Deliverable one output - [Weather Data Output](Weather_Database/WeatherPy_Database.csv),
+2. capture Temperature criteria from the user,
+3. filter the data set based on the criteria to get preferred destination cities,
+4. retrieve the necessary data from openweathermap.org,
+5. hotels were retrieved using Google Nearby Search,
+6. finally, map with markers was generated using Google Maps API.
 
+![Google Map with markers for preferred Travel Destinations](Vacation_Search/WeatherPy_vacation_map.PNG)
 
-![Graph for Outcome Based on Launch Date](Resources/Theater_Outcomes_vs_Launch.png)
+Refer [Vacation Search Code](Vacation_Search/Vacation_Search.ipynb)
 
 ### Deliverable 3: Create a Travel Itinerary Map
 
