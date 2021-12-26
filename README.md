@@ -28,7 +28,7 @@ The collection code was updated to bring in Weather Description (for example, cl
 
 ### Deliverable 2: Create a Customer Travel Destinations Map
 The starter code provided was updated to -
-1. import data from the Deliverable one output - [Weather Data Output](Weather_Database/WeatherPy_Database.csv),
+1. import data from the Deliverable 1 output - [Weather Data Output](Weather_Database/WeatherPy_Database.csv),
 2. capture Temperature criteria from the user,
 3. filter the data set based on the criteria to get preferred destination cities,
 4. retrieve the necessary data from openweathermap.org,
@@ -37,8 +37,19 @@ The starter code provided was updated to -
 
 ![Google Map with markers for preferred Travel Destinations](Vacation_Search/WeatherPy_vacation_map.PNG)
 
-Refer [Vacation Search Code](Vacation_Search/Vacation_Search.ipynb)
+Refer [Vacation Search Code](Vacation_Search/Vacation_Search.ipynb) for the code and [Vacation Search based on temperature criteria Data Output](Vacation_Search/WeatherPy_vacation.csv) for the output data file.
 
 ### Deliverable 3: Create a Travel Itinerary Map
+The starter code provided was updated to -
+1. get data from Deliverable 2 output - [Vacation Search based on temperature criteria Data Output](Vacation_Search/WeatherPy_vacation.csv),
+2. choose four cities that customer might want to visit,
 
-## Conclusion/Summary:
+![Google Map with the four cities selected as Travel Destinationss](Map_showing_Four_cities_selected_for_Travel_Itinerary) 
+
+3. generate map with directions layer for the four cities based on "DRIVING" travel mode as the cities are spread across Australia using Google Maps Directions API,
+![Google Map with directions to the four Travel Destinations](Vacation_Itinerary/WeatherPy_travel_map.PNG)   
+
+4. add markers layer with pop-up marker for each city from the four travel destinations.
+![Google Map with pop-up markers for the four Travel Destinations](WeatherPy_travel_map_markers.PNG) 
+
+Refer [Vacation Itinerary Code](Vacation_Itinerary/Vacation_Itinerary.ipynb) for the code.
