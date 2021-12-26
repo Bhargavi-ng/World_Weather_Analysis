@@ -9,12 +9,19 @@ Below is the list of recommendations that the company wants implemented.
 3. the beta user will choose four cities based on which a travel itinerary needs to be created, and,
 4. finally, create a travel route between the four cities as well as a marker layer map using the Google Maps Direction API.
 
-## Implementation:
+## Requirements:
 This new assignment consists of three technical analyses. 
 
-Deliverable 1: Retrieve Weather Data
-Deliverable 2: Create a Customer Travel Destinations Map
-Deliverable 3: Create a Travel Itinerary Map
+### Deliverable 1: Retrieve Weather Data
+Generate a set of 2,000 random latitudes and longitudes, retrieve the nearest city, and perform an API call with the OpenWeatherMap. In addition to the city weather data you gathered in this module, use your API skills to retrieve the current weather description for each city. Then, create a new DataFrame containing the updated weather data.
+
+### Deliverable 2: Create a Customer Travel Destinations Map
+Use input statements to retrieve customer weather preferences, then use those preferences to identify potential travel destinations and nearby hotels. Then, show those destinations on a marker layer map with pop-up markers.
+
+### Deliverable 3: Create a Travel Itinerary Map
+Use the Google Directions API to create a travel itinerary that shows the route between four cities chosen from the customer’s possible travel destinations. Then, create a marker layer map with a pop-up marker for each city on the itinerary.
+
+## Implementation:
 ### Deliverable 1: Retrieve Weather Data
 The collection code was updated to bring in Weather Description (for example, clouds, fog, light rain, clear sky) along with Latitude, Longitude, Maximum Temperature, Percent Humidity, Percent Cloudiness and Wind Speed for the cities. Refer [Weather Data Collection Code](Weather_Database/Weather_Database.ipynb) for the code and [Weather Data Output](Weather_Database/WeatherPy_Database.csv) for the output data file.
 
